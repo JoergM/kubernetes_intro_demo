@@ -11,7 +11,7 @@ spec:
     matchLabels:
       run: nginx
   strategy:                    
-    type: Recreate               # <-- Type of changed
+    type: Recreate               # <-- Type changed
   template:
     metadata:
       creationTimestamp: null

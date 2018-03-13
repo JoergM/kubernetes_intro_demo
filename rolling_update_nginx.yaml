@@ -13,8 +13,8 @@ spec:
   strategy:                    # <-- Type of upgrade
     type: RollingUpdate
     rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 0
+      maxSurge: 1              # <-- number of extra containers
+      maxUnavailable: 0        # <-- respective number of possible less containers
   template:
     metadata:
       creationTimestamp: null

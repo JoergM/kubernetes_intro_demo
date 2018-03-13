@@ -1,7 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     run: nginx
   name: nginx
@@ -10,10 +9,8 @@ spec:
   selector:
     matchLabels:
       run: nginx
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         run: nginx
     spec:
