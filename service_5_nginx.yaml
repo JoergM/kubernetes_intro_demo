@@ -1,7 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     run: nginx
   name: nginx
@@ -21,8 +20,7 @@ spec:
       - image: nginx:1.12
         name: nginx
 
----                                     # <-- more than one element in file
-
+---
 apiVersion: v1
 kind: Service                           # <-- definition of a service
 metadata:
