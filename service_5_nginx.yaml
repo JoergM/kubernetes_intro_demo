@@ -24,7 +24,6 @@ spec:
 apiVersion: v1
 kind: Service                           # <-- definition of a service
 metadata:
-  creationTimestamp: null
   labels:
     run: nginx
   name: nginx
