@@ -2,9 +2,8 @@
 
 This directory contains the demo files used at the Workshop:
 
-"Microservice-Architekturen praktisch am Beispiel Kubernetes"
+"Introduction to Kubernetes for Microservices".
 
-at Software Architecture Summit 2018 on 12/3/2018.
 
 ## The Kubernetes Yaml files
 
